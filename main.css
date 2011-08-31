@@ -1,0 +1,102 @@
+* {
+	margin:0;
+}
+html, body {
+height:100%;
+background-color: #D0D0D0;
+font-size:14px;
+font-family:Century Gothic;
+}
+h1{color: #6699FF;
+text-decoration: bold;
+text-align: center;
+font-size: 42px;
+letter-spacing: 2px;
+}
+p{color:black;}
+
+.wrapper {
+	padding-top: 0px;
+	min-height:100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto - 30px;
+}
+
+.footer, .push{
+	text-align: center;
+	font-size: 26px;
+	font-family: "Century Gothic bold";
+	letter-spacing: 3px;
+	font-style: bold;
+	width:100%;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+}
+
+#footer-container{
+	left:0px;
+	height: 30px;
+	padding-top:0px;
+	background:#3f3d3d;
+	bottom:0px;
+	width:100%;
+	position:fixed;
+	text-align:center;
+
+}
+
+#recentLikes{
+	position: absolute;
+	left:0;
+	top:10px;
+	width:150px;
+	font-size: 12px;
+	color: #6699FF;
+}
+.recentLikes{
+	background: #3f3d3d;
+}
+div #welcome{
+	float: right;
+	font-size: 12px;
+	color: #6699FF;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	
+}
+
+div#movieTitle{
+text-align:center;
+font-size:30px;
+}
+
+div#ClipType{
+text-align:center;
+text-decoration: italic;
+color: gray;
+}
+
+div#buttons{
+text-align:center;
+}
+div#PLAYER{
+padding-top: 10px;
+text-align:center;
+}
+
+a:link{
+text-decoration: none;
+color: #6699FF;
+}
+a:visited{
+text-decoration: none;
+}
+a:hover{
+text-decoration:underline;
+}
+a:active{
+text-decoration:none;
+}
+
